@@ -1,0 +1,22 @@
+﻿<langue>
+	<menus>
+		<accueil>
+			<titre>Películas</titre>
+			<ac>Casa</ac>
+			<dm>Afiliación</dm>
+			<co>Conexión</co>
+      <idtp>SIEMPRE SOY LA PAGINA DE INICIO</idtp>
+		</accueil>
+		<membres>
+			<pr>Perfil</pr>
+			<pa>Cesta</pa>
+			<dc>Cerrar</dc>
+      <idmt>Miembros</idmt>
+		</membres>
+		<admin>
+			<gf>Administrar películas</gf>
+			<gm>Administrar miembros</gm>
+			<dc>Cerrar</dc>
+		</admin>
+	</menus>
+</langue>

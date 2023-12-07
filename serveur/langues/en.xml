@@ -1,0 +1,22 @@
+<langue>
+	<menus>
+		<accueil>
+			<titre>Movies</titre>
+			<ac>Home</ac>
+			<dm><img src="client\public\images\user1.png">Membership</dm>
+			<co><img src="client\public\images\connexion.png">Login</co>
+			<idtp>I AM ALWAYS THE HOME PAGE</idtp>
+		</accueil>
+		<membres>
+			<pr>Profile</pr>
+			<pa>Basket</pa>
+			<bdc>Logout</bdc>
+			<idmt>Members</idmt>
+		</membres>
+		<admin>
+			<gf>Manage Movies</gf>
+			<gm>Mange members</gm>
+			<dc>Logout</dc>
+		</admin>
+	</menus>
+</langue>

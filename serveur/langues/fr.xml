@@ -1,0 +1,28 @@
+<langue>
+	<menus>
+		<accueil>
+			<titre>Films</titre>
+			<ac>Accueil</ac>
+			<dm>Devenir membre</dm>
+			<co>Connexion</co>
+			<idtp>JE SUIS TOUJOURS LA PAGE D'ACCUEIL</idtp>
+		</accueil>
+		<membres>
+			<pr>Profil</pr>
+			<pa>Panier</pa>
+			<dc>Déconnexion</dc>
+			<idmt>Membres</idmt>
+		</membres>
+		<admin>
+			<gf>Gérer films</gf>
+			<gm>Gérer membres</gm>
+			<dc>Déconnexion</dc>
+		</admin>
+	</menus>
+	<formMembre>
+
+	</formMembre>
+	<formConnexion>
+
+	</formConnexion>
+</langue>

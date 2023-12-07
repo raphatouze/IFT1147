@@ -1,0 +1,226 @@
+.bg-nav-perso{
+    background-color:grey !important;
+    color:white;
+}
+
+.posToast {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+
+#textToast {
+    background-color: #28a745;
+    color: white;
+}
+
+#cp{
+    color:white;
+    font-size: 20px;
+    float:inline-end;
+}
+
+i.bi-cart{
+    color: blue;
+    font-size: 24px;
+    float: inline-end;
+}
+
+.ul2navbar {
+    float: right;
+}
+
+.photo{
+    float:"right";
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+}
+
+/* Style de la liste de films */
+.film-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style d'un film individuel */
+.film {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style de l'image du film */
+film img {
+    width: 250px; /* Définir la largeur souhaitée */
+    height: 300px; /* Définir la hauteur souhaitée */
+    border: 2px solid #333; /* Bordure pour l'image */
+}
+
+.logo-center{
+    position: absolute;
+    left: 43%;
+    transform: translateX(-57%);
+
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*MODAL POUR LES POP-UP*/
+
+.modalfilm {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 1000;
+}
+
+.modalfilm-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Adjust width for a larger rectangle */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.modalfilm-content h2 {
+    margin-bottom: 40px; /* Existing style */
+    border-bottom: 2px solid #333; /* New border style */
+    padding-bottom: 20px; /* Padding to create space between the title and the border */
+}
+
+
+/*
+.modalfilm-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.modalfilm-content .close-cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    overflow: hidden;
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Hover sur les pochettes*/
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown {
+    float: right !important;
+    padding-right: 20px;
+}
+
+.msgFormEnreg {
+    color: red !important;
+    font-size: 11px !important;
+}
+
+.panierPlus {
+    float: right;
+    font-size: 24px !important;
+    margin-right: -8px;
+}
+
+#bdc {
+    margin-right: 30px;
+}
+
+#nbart {
+    margin-left: -8px;
+}
+
+.deconnexion {
+    float: right;
+    color: grey;
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
+.closeBtn {
+    color: red;
+    cursor: pointer;
+}
+
+.bgcolorFacture {
+    background-color: #bbabab !important;
+}
+
+#payer {
+    margin-left: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-img-top {
+    width: 100%; /* Adjusts the width to take the full width of the card */
+    height: 400px; /* Sets a fixed height, adjust as needed */
+    padding : 10px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    text-align : center;
+}
+
+.maCard {
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.liadmin{
+    color:white;
+}
+.liadmin:hover {
+    color: yellow;
+}
